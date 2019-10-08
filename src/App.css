@@ -5,6 +5,11 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+
 }
 .display {
     margin-top: 25px;
@@ -20,3 +25,61 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+.display h3 {
+    margin-bottom: 1px;
+    
+}
+
+
+
+
+button {
+    border-radius: 50%;
+    color:white;
+    margin-right: 2%;
+    }
+
+
+
+.numberButtonContainer{
+   
+    width:80%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5%;
+    
+}
+
+.numberButton {
+    background:#184379;
+    font-size: 2rem;
+    padding: 6%;
+    }
+
+.operatorButtonContainer{
+
+    width:80%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5%;
+    
+}
+.operatorButton {
+    background:#237293;
+    font-size: 2rem;
+    padding: 6%;
+}
+
+.specialButtonContainer{
+
+    width:80%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5%;
+    
+}
+.specialButton {
+    background: #225D9E;
+    font-size: 2rem;
+    padding: 10%;
+}
